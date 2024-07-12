@@ -44,10 +44,12 @@ export const authOptions: NextAuthOptions = {
     strategy: "jwt",
   },
   jwt: {
-    secret: process.env.JWT_SECRET!,
+    // secret: process.env.JWT_SECRET!,
+    secret: "Ksj123!@#",
   },
   pages: {
     signIn: "/signin",
   },
-  secret: process.env.AUTH_SECRET!,
+  // secret: process.env.AUTH_SECRET!,
+  secret: "KSJ123!@#",
 };
